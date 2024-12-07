@@ -134,7 +134,7 @@ const products = [
   
   // 1. Console Log All Products (Title, Price)
 
-  products.forEach(product => console.log(`${product.title}  ${product.price}`));
+ products.forEach(product => console.log(`${product.title}  ${'$'}${product.price}`));
   
   
   // 2. Filter Products with Long Descriptions
