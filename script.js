@@ -169,3 +169,5 @@ filterProductsByDiscount.forEach((product, index) => {console.log(` - ${index + 
 console.log('New products 2024:');
 const year2024 = products.filter(product => product.year >= 2024);
 year2024.forEach((item, index) => console.log(` - ${index + 1}. ${item.title}: ${item.year}`));
+
+
